@@ -1,0 +1,107 @@
+/* Estilos para el cuerpo de la página */
+body {
+    background-color: #b8daba; /* Fondo de color verde claro */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Estilos para el contenedor principal sin fondo negro */
+.container {
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    flex-grow: 1; /* Hace que el contenedor se expanda para llenar el espacio restante */
+}
+
+/* Estilos para la imagen cuadrada girada */
+.imagen-fondo {
+    width: 700px; /* Tamaño fijo de la imagen */
+    height: 700px; /* Tamaño fijo de la imagen */
+}
+
+/* Estilos para el formulario de inicio de sesión */
+.formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 300px; /* Tamaño fijo del formulario */
+    padding: 20px;
+    margin: 30px; /* Margen fijo alrededor del formulario */
+}
+
+.texto {
+    color: white; /* Cambia el color del texto */
+    font-size: 20px; /* Ajusta el tamaño de fuente a 20px */
+    font-family: "Agency FB"; /* Cambia la fuente a Agency FB o la que prefieras */
+    text-transform: uppercase; /* Convierte el texto en mayúsculas */
+    font-weight: bold; /* Agrega negritas */
+}
+
+/* Ajusta el ancho y altura de las casillas de correo y contraseña */
+.casilla {
+    width: 100%;
+    max-width: 250px; /* Nuevo ancho máximo de las casillas */
+    padding: 5px; /* Reduzco el padding para disminuir la altura */
+    border: 1px solid #ccc; /* Agregar borde de color gris */
+    background: rgba(255, 255, 255, 0.1); /* Fondo semi-transparente blanco */
+    color: #333; /* Cambia el color del texto */
+    border-radius: 10px;
+    margin: 12px 0;
+    font-family: "Agency FB"; /* Cambia la fuente a Agency FB o la que prefieras */
+    text-transform: uppercase; /* Convierte el texto en mayúsculas */
+    font-weight: bold; /* Agrega negritas */
+}
+
+/* Ajusta el tamaño de los botones de inicio de sesión */
+.boton-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 200px; /* Nuevo ancho máximo de las casillas */
+}
+
+.boton {
+    flex: 1;
+    padding: 5px 10px; /* Reduzco el padding para disminuir el tamaño */
+    border: none;
+    background: #2691c1;
+    color: white;
+    font-size: 15px; /* Reduzco el tamaño de fuente */
+    border-radius: 10px;
+    margin: 15px 0;
+    cursor: pointer;
+    font-family: "Agency FB"; /* Cambia la fuente a Agency FB o la que prefieras */
+    font-weight: bold; /* Agrega negritas */
+    text-transform: uppercase; /* Convierte el texto en mayúsculas */
+}
+
+/* Agrega margen derecho al primer botón para separarlos */
+.boton:first-child {
+    margin-right: 10px; /* Espacio horizontal entre los botones */
+}
+
+.boton:hover {
+    background: #00bfff;
+}
+
+/* Estilos para el pie de página */
+.footer {
+    background-color: rgba(0, 0, 0, 0.1); /* Fondo casi transparente */
+    padding: 5px 0; /* Espaciado interior */
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+}
+
+/* Estilos para la imagen en el pie de página */
+.footer-image {
+    display: block;
+    margin: 0 auto; /* Centra la imagen horizontalmente en el pie de página */
+    max-width: 300px; /* Ajusta el tamaño máximo de la imagen según tus necesidades */
+}
